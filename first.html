@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>web pages</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #main {
+            position: relative;
+            width: 80vw;
+            height: 95vh;
+            border: 2px solid black;
+            margin: 20px auto;
+        }
+
+        #heading {
+            background-color: rgb(60, 172, 38);
+            height: 10vh;
+            border: 2px solid black;
+            color: white;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #nav {
+            height: 10vh;
+            background-color: rgb(71, 171, 196);
+        }
+
+        .uli {
+            display: inline-block;
+            color: white;
+            margin: 20px;
+            font-size: 1.3em;
+        }
+        #sub{
+            position: absolute;
+            border:2px solid black;
+            right:200;
+        }
+        #nav2{
+            background-color: pink;
+            position: absolute;
+            right:0;
+            width:13vw;
+            height:64vh;
+            
+        }
+        .app{
+            background-color: blueviolet;
+        }
+        .ap{
+            border:2px solid black;
+        }
+        .li2{
+            /* list-style-type: none; */
+            margin-left:76px;
+            margin-bottom:40px;
+            font-size: 1.2em;
+        }
+        .ul2{
+            list-style-position: inside;
+            font-size: 23px;
+            margin-left:23px;
+        }
+        #fot{
+            position:absolute;
+            bottom:0;
+            background-color: red;
+            height:10vh;
+            width:100%;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="main" class="abc def ghi">
+        <div id="heading" class="abc def ghi">
+            <h1 id="h1">Dalsaniya Keval</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li class="uli">Home</li>
+                <li class="uli">About</li>
+                <li class="uli">Contact us</li>
+                <li class="uli">Gallery</li>
+            </ul>
+        </div>
+        <div id="sub">
+            <h1>Sub heading</h1>
+            <table>
+                <tr>
+                    <td>
+                        <img src="https://imgs.search.brave.com/WDJ8q9fjQq_vJOi5V1xzREd3DyiNZWU7oUsHacwj2Ws/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jbXMu/aW50ZXJpb3Jjb21w/YW55LmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNC8wMS9k/YWZmb2RpbC1mbG93/ZXItaW1hZ2VzLmpw/Zw"
+                            height="200px" width="200px" />
+                    </td>
+                    <td>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque repellat animi similique quidem
+                        vero tempora cum amet non, ipsum recusandae dolor odit et mollitia? Dignissimos autem nam facere
+                        reprehenderit perspiciatis officia perferendis commodi, doloribus illo qui iste at error? Nobis
+                        magni, sunt molestias voluptatum ducimus, corrupti velit minus cumque expedita eaque qui dicta
+                        accusantium quia earum totam facilis. Aliquam quisquam architecto ullam recusandae similique
+                        dolorum distinctio vel assumenda. Quibusdam laudantium rerum enim aliquam dignissimos aspernatur
+                        asperiores itaque, neque consequatur incidunt dolore eos in corporis! Eligendi magni cupiditate
+                        quibusdam dolorum atque repudiandae odio incidunt praesentium placeat beatae adipisci magnam eos
+                        alias necessitatibus iste eveniet ratione soluta illum nemo, ea officia cumque, repellat
+                        asperiores. Repellat ex laboriosam alias reiciendis suscipit maiores corporis nostrum, fuga
+                        laborum dignissimos ducimus voluptatibus iusto, dolores nobis accusamus iure molestiae deserunt.
+                        Unde illum suscipit quibusdam eos quod dignissimos sint, nobis mollitia nulla. Culpa earum
+                        accusantium et, iure cumque, in minima ipsum suscipit cum minus qui, quisquam modi illo omnis ex
+                        animi corrupti corporis totam fuga ad fugit! Libero quo ullam vero, totam iusto inventore
+                        repellat officiis aspernatur aut maxime cupiditate officia nam. Cupiditate expedita tempora
+                        sapiente consectetur, nisi animi autem dolor eligendi. Corrupti dolorem fugit reprehenderit. Id
+                        sunt saepe, voluptates quasi quisquam dolorem laboriosam officia veniam. Neque consequatur
+                        deleniti accusamus autem eum! Soluta illum asperiores enim? Sint cum aut velit expedita vitae
+                        natus laudantium, pariatur eligendi quasi, aliquid nostrum omnis iste ipsam nulla enim quia
+                        itaque ea veniam debitis quisquam vero, laboriosam maiores nesciunt maxime! Assumenda, at
+                        repellat?
+                    </td>
+                </tr>
+            </table>
+            <ul >
+                <li class="ul2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa!</li>
+                <li class="ul2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa!</li>
+                <li class="ul2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa!</li>
+                <li class="ul2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa!</li>
+                <li class="ul2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ipsa!</li>
+            </ul>
+        </div>
+        <div id="nav2">
+             <ul>
+                <li onclick="fun()" id="pp" class="li2"><a href="">home</a></li>
+                <li class="li2">about</li>
+                <li class="li2">contact us</li>
+                <li class="li2">Gallery</li>
+             </ul>
+        </div>
+        <div id="fot">
+            <footer class="ss">
+                kevaldalsaniya@112gmail.com
+            </footer>
+        </div>
+    </div>
+    <script src="third.js">
+        
+    </script>
+</body>
+
+</html>

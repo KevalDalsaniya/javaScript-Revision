@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>web pages</title>
+  <style>
+    #main {
+      height:100px;
+      width:100px;
+      background-color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+
+  </div>
+</body>
+<script>
+  var up=0;
+    var left=0;
+ // var ele = document.getElementById("main");
+ var ele=document.querySelector("body");
+ var ee=document.getElementById("main");
+  ele.addEventListener("keydown",function (e){
+    // console.log(e.key);
+    var k=e.key;
+  
+    //console.log(k);
+    switch(k){
+      case "ArrowUp":
+         up=up+5;
+         break;
+      case "ArrowDown":
+         up=up-5;
+        break;
+      case "ArrowLeft":
+         left=left+5;
+         break;
+      case "ArrowRight":
+         left=left-5;
+        break;
+    }
+    ee.style.marginLeft=left+"px";
+    ee.style.marginTop=up+"px";
+  })     
+</script>
+
+</html>
